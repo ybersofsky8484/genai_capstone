@@ -1,3 +1,8 @@
-data/raw/*codespaces-jupyter/notebooks/chroma_embeddings/*.sqlite3
+notebooks/data
+notebooks/cifar_net.pth
+.ipynb_checkpoints/
+# Ignore Chroma DB files (SQLite + index directories)
 codespaces-jupyter/notebooks/chroma_embeddings/
-codespaces-jupyter/notebooks/chroma_embeddings/
+*.sqlite3
+*.parquet
+*.pkl
