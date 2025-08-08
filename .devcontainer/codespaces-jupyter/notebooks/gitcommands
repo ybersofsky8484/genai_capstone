@@ -1,0 +1,4 @@
+git add .
+git add "filename.py"
+git commit -m "Your clear, descriptive commit message"
+git push origin main
